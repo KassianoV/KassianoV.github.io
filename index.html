@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kassiano Vieira — Front-end Developer</title>
+  <meta name="description" content="Portfólio de Kassiano Vieira, Desenvolvedor Front-End especializado em Angular, TypeScript e Design System." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">kassiano<span>.dev</span></a>
+    <ul class="nav-links">
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#contato">contato</a></li>
+    </ul>
+    <a href="https://github.com/KassianoV" target="_blank" class="nav-cta">GitHub ↗</a>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero">
+    <p class="hero-label">Analista Jr. @ Grupo Spezi · Rio de Janeiro</p>
+    <h1 class="hero-title">
+      Olá, sou<br /><span class="accent">Kassiano Vieira.</span>
+    </h1>
+    <p class="hero-subtitle">Front-end Developer · Angular & TypeScript<span class="cursor"></span></p>
+    <p class="hero-desc">
+      Desenvolvedor Front-End com foco em <strong>Design Systems</strong>, Angular e TypeScript.
+      Certificado PSM I, graduando em Ciência da Computação pela UFF e apaixonado por interfaces
+      que combinam usabilidade, performance e código limpo.
+    </p>
+    <div class="hero-actions">
+      <a href="#projetos" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        Ver projetos
+      </a>
+      <a href="#contato" class="btn btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Falar comigo
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">1<span>+</span></span>
+        <span class="stat-label">Ano corporativo</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">4<span>+</span></span>
+        <span class="stat-label">Certificações</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">10<span>+</span></span>
+        <span class="stat-label">Tecnologias</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SOBRE ─── -->
+  <section id="sobre">
+    <div class="section-wrapper">
+      <div class="reveal">
+        <p class="section-tag">01 — sobre</p>
+        <h2 class="section-title">Quem sou eu</h2>
+        <p class="section-desc">Um pouco sobre minha jornada e o que me motiva a codar.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Sou desenvolvedor Front-End baseado em Rio das Ostras, RJ, atualmente atuando como
+            <strong>Analista Júnior no Grupo Spezi</strong>, onde lidero a implementação de um
+            Design System para o segmento governamental com Angular, TypeScript e Storybook.
+          </p>
+          <p>
+            Graduando em <strong>Ciência da Computação pela UFF</strong>, fui bolsista por 3+ anos
+            em projetos de extensão que levaram programação e robótica a mais de 50 alunos de
+            escolas públicas de Rio das Ostras.
+          </p>
+          <p>
+            Nas horas vagas desenvolvo projetos pessoais, como um software de
+            <strong>gestão financeira desktop</strong> com Electron + SQLite, explorando as
+            fronteiras entre usabilidade e performance offline. Certificado PSM I (Scrum.org).
+          </p>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-item"><span class="skill-dot"></span>Angular</div>
+          <div class="skill-item"><span class="skill-dot"></span>TypeScript</div>
+          <div class="skill-item"><span class="skill-dot"></span>Vue.js</div>
+          <div class="skill-item"><span class="skill-dot"></span>Storybook</div>
+          <div class="skill-item"><span class="skill-dot"></span>Web Components</div>
+          <div class="skill-item"><span class="skill-dot"></span>Node.js</div>
+          <div class="skill-item"><span class="skill-dot"></span>HTML / CSS</div>
+          <div class="skill-item"><span class="skill-dot"></span>SonarQube</div>
+          <div class="skill-item"><span class="skill-dot"></span>Docker</div>
+          <div class="skill-item"><span class="skill-dot"></span>Figma</div>
+          <div class="skill-item"><span class="skill-dot"></span>Git / GitHub</div>
+          <div class="skill-item"><span class="skill-dot"></span>API REST</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJETOS ─── -->
+  <section id="projetos">
+    <div class="section-wrapper">
+      <div class="reveal">
+        <p class="section-tag">02 — projetos</p>
+        <h2 class="section-title">O que construí</h2>
+        <p class="section-desc">Projetos pessoais, estudos e contribuições que tenho orgulho de mostrar.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- ─── CARD PROJETO 1 — Design System Gov ─── -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">🏛️</span>
+            <div class="project-links">
+              <a href="https://github.com/KassianoV" target="_blank" class="project-link" title="GitHub" aria-label="Código no GitHub">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div>
+            <p class="project-name">Design System Gov</p>
+          </div>
+          <p class="project-desc">Design System customizado para o segmento governamental no Grupo Spezi. Biblioteca de componentes reutilizáveis com benchmarking de melhores práticas, documentado no Storybook.</p>
+          <div class="project-tags">
+            <span class="tag">Angular</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Storybook</span>
+            <span class="tag">Web Components</span>
+          </div>
+        </div>
+
+        <!-- ─── CARD PROJETO 2 — Finance Manager Desktop ─── -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">💰</span>
+            <div class="project-links">
+              <a href="https://github.com/KassianoV" target="_blank" class="project-link" title="GitHub" aria-label="Código no GitHub">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div>
+            <p class="project-name">Finance Manager Desktop</p>
+          </div>
+          <p class="project-desc">Software de gestão financeira pessoal desktop com persistência local. Explora as fronteiras entre usabilidade e performance offline com banco de dados embutido.</p>
+          <div class="project-tags">
+            <span class="tag">Electron</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">TypeScript</span>
+          </div>
+        </div>
+
+        <!-- ─── CARD PROJETO 3 — Portfólio ─── -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">🚀</span>
+            <div class="project-links">
+              <a href="https://github.com/KassianoV/KassianoV.github.io" target="_blank" class="project-link" title="GitHub" aria-label="Código no GitHub">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="https://kassianav.github.io" target="_blank" class="project-link" title="Demo ao vivo" aria-label="Ver demo ao vivo">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <div>
+            <p class="project-name">Portfólio Pessoal</p>
+          </div>
+          <p class="project-desc">Este portfólio! Construído com HTML, CSS e JavaScript puro, sem frameworks — foco em performance, animações suaves e design system próprio.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTATO ─── -->
+  <section id="contato">
+    <div class="section-wrapper">
+      <div class="reveal">
+        <p class="section-tag">03 — contato</p>
+        <h2 class="section-title">Vamos conversar</h2>
+      </div>
+
+      <div class="contact-box reveal">
+        <h3>Vamos construir algo juntos</h3>
+        <p>Procurando um desenvolvedor front-end comprometido com qualidade? Quer trocar uma ideia ou colaborar em algum projeto? Pode falar comigo.</p>
+        <a href="mailto:kassianovieira.pc@gmail.com" class="btn btn-primary" style="font-size:0.9rem;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          kassianovieira.pc@gmail.com
+
+        </a>
+        <div class="contact-socials">
+          <a href="https://github.com/KassianoV" target="_blank" class="social-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/kassianovieira" target="_blank" class="social-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <p>© 2025 <a href="#">Kassiano Vieira</a></p>
+    <p>Feito com <span style="color:#e05252">♥</span> e muito café — <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+  </footer>
+
+  <script>
+    // NAV scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Intersection Observer para as animações de reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, (i % 4) * 80);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    reveals.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
